@@ -1,0 +1,73 @@
+
+
+/*Extra small devices (phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .board {
+        width: 405px !important;
+        height: 405px !important;
+    }
+}
+
+/*Extra small devices (phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .square{
+        width: 135px !important;
+        height: 135px !important;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .board{
+        width: 600px !important;
+        height: 600px !important;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .square {
+        width: 200px !important;
+        height: 200px !important;
+    }
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 600px;
+    height: 600px;
+    border: 1px solid black
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6em
+}
+
+.square:nth-child(odd){
+    background: #FFEB3B;
+}
+
+.square:nth-child(even){
+    background: #eae1ea
+}
+
+.square:hover {
+    cursor: pointer;
+    background: gray
+}
