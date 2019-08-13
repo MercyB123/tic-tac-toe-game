@@ -16,18 +16,18 @@
     }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 425px) {
     .board {
-        width: 410px !important;
-        height: 410px !important;
+        width: 302px !important;
+        height: 400px !important;
     }
 }
 
-/*Extra small devices (phones, 600px down) */
-@media only screen and (min-width: 600px) {
+/*Extra small devices (phones, 425px up) */
+@media only screen and (max-width: 425px) {
     .square{
-        width: 135px !important;
-        height: 135px !important;
+        width: 100px !important;
+        height: 133px !important;
     }
 }
 
