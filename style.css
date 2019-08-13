@@ -18,7 +18,7 @@
 
 @media only screen and (max-width: 425px) {
     .board {
-        width: 302px !important;
+        width: 300px !important;
         height: 400px !important;
     }
 }
@@ -27,7 +27,7 @@
 @media only screen and (max-width: 425px) {
     .square{
         width: 100px !important;
-        height: 133px !important;
+        height: 135px !important;
     }
 }
 
